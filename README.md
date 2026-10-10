@@ -2,17 +2,7 @@
 
 A simple backend built with FastAPI and Python to process employee payroll CSV files, compute net salaries, and expose endpoints to view calculated results.
 
-## Project Structure
 
-payroll_system/
-│
-├── app/
-│   ├── __init__.py
-│   ├── main.py          # FastAPI routes and CSV stream handling
-│   └── services.py      # Salary calculation logic
-│
-├── sample.csv           # Sample input file
-└── README.md            # Project documentation
 
 ## Salary Calculation Formula
 
